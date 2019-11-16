@@ -1,6 +1,5 @@
 var express = require('express');
 var Weather = require('../models/weather');
-
 var router = express.Router();
 
 router.get('/:city',function(req,res){
