@@ -1,5 +1,8 @@
 const request = require('request-promise');
-//const API_URL = 'api key'
+
+//require('dotenv').config();
+
+const API_URL='88d8732d1c143061a6b42a95e347cf1a'
 
 class weather {
   static retrieveByCity(city,callback){
